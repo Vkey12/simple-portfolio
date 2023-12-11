@@ -5,12 +5,14 @@
 }
 img {
     width: 100%;
+    height: auto;
+    
 }
 a {
     text-decoration: none;
 }
 text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: larger;
 }
 span {
@@ -20,7 +22,7 @@ span {
 }
 /*TOP*/
 body {
-    background-color: #608888;
+    background-color: #bbc5c5;
 }
 .smoke{
     display: inline-block;
@@ -143,13 +145,13 @@ main {
     overflow-x: auto;
     max-height: fit-content;
     border-radius: 50% ;
-    background: linear-gradient(0deg ,#000 ,#272727);
+    background: linear-gradient(0deg ,#000 ,#363636);
 }
 .column-2-image::after, .column-2-image::before{
     content: '';
     position: absolute;
     /* shinny border */
-    border: 10px solid rgb(67, 202, 202);
+    border: 10px solid rgba(81, 185, 204, 0.479);
     border-radius: 50%;
     top: 0;
     left: 0;
